@@ -10,24 +10,32 @@ nav {
 
 label.logo {
     color: ghostwhite;
-    font-size: 30px;
+    font-size: 20px;
     font-family: Calibri;
-    line-height: 80px;
-    padding: 0 100px;
+    line-height: 70px;
+    padding: 0 40px;
     font-weight: bold;
 }
 
-.nav ul {
+.menu{
     float: left;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
-    .nav ul li {
+    .link { 
         display: inline-block;
-        line-height: 80px;
+        line-height: 40px;
         margin: 0 2px;
     }
 
-        .nav ul li a {
-            color: #ffffff;
+        .link ul li a {text-decoration-color:white;
+            font-size:17px;
+            border-radius: 3px;
+            padding:7px 13px;
+            text-transform: uppercase;
+      
+        }
+        a:hover{
+            background: #1b9bff;
+            transition: .5s;
         }
