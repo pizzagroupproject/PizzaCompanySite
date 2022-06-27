@@ -1,0 +1,33 @@
+﻿body {
+    font-family: Calibri;
+}
+
+nav {
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: ghostwhite;
+    font-size: 30px;
+    font-family: Calibri;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+.nav ul {
+    float: left;
+    margin-left: 50px;
+}
+
+    .nav ul li {
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 2px;
+    }
+
+        .nav ul li a {
+            color: #ffffff;
+        }
