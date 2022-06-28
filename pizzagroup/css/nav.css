@@ -1,5 +1,6 @@
 ﻿body {
     font-family: Calibri;
+    line-height:1.7;
 }
 
 nav {
@@ -18,6 +19,7 @@ label.logo {
 }
 
 .menu{
+    background-color: gold;
     float: left;
     margin-left: 40px;
 }
@@ -35,7 +37,11 @@ label.logo {
             text-transform: uppercase;
       
         }
-        a:hover{
-            background: #1b9bff;
-            transition: .5s;
-        }
+a:hover {
+    background: #1b9bff;
+    transition: .5s;
+}
+.modal:hover {
+background:#3333;
+transition: .5s;
+}
